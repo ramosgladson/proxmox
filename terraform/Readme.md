@@ -2,7 +2,8 @@
 > automate infrastructure
 
 For this example is necessary a file .auto.tfvars for credentials
-credentials.auto.tfvars
+
+> credentials.auto.tfvars
 ```
 proxmox_api_url = "https://pve1.my.local:8006/api2/json"
 proxmox_api_token_id = "user@pam!terraform"
