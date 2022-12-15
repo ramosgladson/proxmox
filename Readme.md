@@ -6,7 +6,7 @@
 1. Download iso image and make a USB flash drive
 
 ```
-$ wget https://enterprise.proxmox.com/iso/proxmox-ve_7.3-1.iso
+$ wget https://enterprise.proxmox.com/iso/proxmox-ve_7.3-1.iso           |
 $ sudo mkfs -t vfat /dev/sda1                                            | Keep in mind /dev/sda1 was my partition
 $ sudo dd if=/home/ramos/Download/proxmox-ve_7.3-1.iso of=/dev/sda       | wait till finish, can take a couple of minutes
 $ sudo eject /dev/sda1                                                   | don’t forget to use your partition, ok?
